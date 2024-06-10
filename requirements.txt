@@ -1,8 +1,5 @@
 # requirements.txt
 snowflake-connector-python
 snowflake-snowpark-python
-streamlit==1.31.1;
-# New Section to display fruityvice nutrition information
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response.json())
+streamlit==1.31.1
+requests
